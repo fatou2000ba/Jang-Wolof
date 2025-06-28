@@ -38,6 +38,7 @@ public class GestionnaireScenes : MonoBehaviour
     
     public void AllerMenuPrincipal()
     {
+        Debug.Log("Aller au menu principal");
         ChargerScene(sceneMenuPrincipal);
     }
     
