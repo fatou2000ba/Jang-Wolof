@@ -14,6 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 3be7913670ac3ef74bbdf1e8bec473c5
+  - enabled: 1
+    path: Assets/Scenes/Apprentissage.unity
+    guid: 40d8a62cf40dbc832a20fa266782de46
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: 7f2df1314b596646ba01093c7ce4b62c
+  - enabled: 1
+    path: Assets/Scenes/DialogScene.unity
+    guid: 8e6adec96a60871a8b651380cf93f2db
+  - enabled: 1
+    path: Assets/Scenes/Progression.unity
+    guid: 8ff9aba595da416868f016a25d36bfdf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
