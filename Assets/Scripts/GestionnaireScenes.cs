@@ -5,11 +5,11 @@ using System.Collections;
 public class GestionnaireScenes : MonoBehaviour
 {
     [Header("Noms des Scènes")]
-    public string sceneMainMenu = "MainMenu";
-    public string sceneMenuPrincipal = "MenuPrincipal";
+    public string sceneCommencer = "Commencer";
+    public string sceneMenu = "Menu";
     public string sceneApprentissage = "Apprentissage";
     public string sceneQuiz = "Quiz";
-    public string sceneConversation = "Conversation";
+    public string sceneDialogue = "Dialogue";
     public string sceneClassements = "Classements";
     public string sceneCreationProfil = "CreationProfil";
     
@@ -39,12 +39,12 @@ public class GestionnaireScenes : MonoBehaviour
     public void AllerMenuPrincipal()
     {
         Debug.Log("Aller au menu principal");
-        ChargerScene(sceneMenuPrincipal);
+        ChargerScene(sceneMenu);
     }
     
     public void AllerMainMenu()
     {
-        ChargerScene(sceneMainMenu);
+        ChargerScene(sceneCommencer);
     }
     
     public void AllerApprentissage()
@@ -59,7 +59,7 @@ public class GestionnaireScenes : MonoBehaviour
     
     public void AllerConversation()
     {
-        ChargerScene(sceneConversation);
+        ChargerScene(sceneDialogue);
     }
     
     public void AllerClassements()
@@ -170,7 +170,7 @@ public class GestionnaireScenes : MonoBehaviour
     
     public void RedemarrerJeu()
     {
-        ChargerScene(sceneMainMenu);
+        ChargerScene(sceneCommencer);
     }
     
     public void QuitterJeu()
