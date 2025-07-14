@@ -1,0 +1,202 @@
+[
+  {
+    "motWolof": "jannt",
+    "imageCorrecte": "soleil",
+    "propositions": ["soleil", "lune", "terre", "etoile"]
+  },
+  {
+    "motWolof": "weer",
+    "imageCorrecte": "lune",
+    "propositions": ["lune", "etoile", "voiture", "route"]
+  },
+  {
+    "motWolof": "souf",
+    "imageCorrecte": "terre",
+    "propositions": ["terre", "personne", "calebasse", "maison"]
+  },
+  {
+    "motWolof": "bideww",
+    "imageCorrecte": "etoile",
+    "propositions": ["etoile", "enfant", "cuillere", "porte"]
+  },
+  {
+    "motWolof": "assamane",
+    "imageCorrecte": "ciel",
+    "propositions": ["ciel", "enseignant", "policier", "arme"]
+  },
+  {
+    "motWolof": "ndamaar",
+    "imageCorrecte": "voiture",
+    "propositions": ["voiture", "main", "eleve", "ecole"]
+  },
+  {
+    "motWolof": "tali",
+    "imageCorrecte": "route",
+    "propositions": ["route", "vache", "mouton", "poule"]
+  },
+  {
+    "motWolof": "nite",
+    "imageCorrecte": "personne",
+    "propositions": ["personne", "argent", "chaussure", "natte"]
+  },
+  {
+    "motWolof": "leket",
+    "imageCorrecte": "calebasse",
+    "propositions": ["calebasse", "foret", "feu", "legumes"]
+  },
+  {
+    "motWolof": "keur",
+    "imageCorrecte": "maison",
+    "propositions": ["maison", "oignon", "chou", "table"]
+  },
+  {
+    "motWolof": "xale",
+    "imageCorrecte": "enfant",
+    "propositions": ["enfant", "bois", "livre", "chapeau"]
+  },
+  {
+    "motWolof": "coudou",
+    "imageCorrecte": "cuillere",
+    "propositions": ["cuillere", "mur", "pirogue", "cuisine"]
+  },
+  {
+    "motWolof": "bountou",
+    "imageCorrecte": "porte",
+    "propositions": ["porte", "cour", "papier", "lit"]
+  },
+  {
+    "motWolof": "jangale kat",
+    "imageCorrecte": "enseignant",
+    "propositions": ["enseignant", "habits", "pantalon", "riz"]
+  },
+  {
+    "motWolof": "take-deer",
+    "imageCorrecte": "policier",
+    "propositions": ["policier", "marmite", "poisson", "evantail"]
+  },
+  {
+    "motWolof": "ngandaye",
+    "imageCorrecte": "arme",
+    "propositions": ["arme", "arbre", "fruits", "ustensiles de cuisine"]
+  },
+  {
+    "motWolof": "loxo",
+    "imageCorrecte": "main",
+    "propositions": ["main", "vendeur", "chaise", "balencoire"]
+  },
+  {
+    "motWolof": "ndongo",
+    "imageCorrecte": "eleve",
+    "propositions": ["eleve", "lettre", "chapelet", "clé"]
+  },
+  {
+    "motWolof": "daara",
+    "imageCorrecte": "ecole",
+    "propositions": ["ecole", "chaussette", "pluie", "sandale"]
+  },
+  {
+    "motWolof": "naak",
+    "imageCorrecte": "vache",
+    "propositions": ["vache", "mer", "fenêtre", "enclo"]
+  },
+  {
+    "motWolof": "xaar",
+    "imageCorrecte": "mouton",
+    "propositions": ["mouton", "fil", "stylo", "ail"]
+  },
+  {
+    "motWolof": "guinar",
+    "imageCorrecte": "poule",
+    "propositions": ["poule", "bougie", "arrachide", "sucette"]
+  },
+  {
+    "motWolof": "xaliss",
+    "imageCorrecte": "argent",
+    "propositions": ["argent", "huile", "avion", "oiseau"]
+  },
+  {
+    "motWolof": "dalle",
+    "imageCorrecte": "chaussure",
+    "propositions": ["chaussure", "lion", "pastèque", "coussin"]
+  },
+  {
+    "motWolof": "bassang",
+    "imageCorrecte": "natte",
+    "propositions": ["natte", "cheveaux", "cravache", "bague"]
+  },
+  {
+    "motWolof": "alle",
+    "imageCorrecte": "foret",
+    "propositions": ["foret", "lait caillé", "université", "pierre"]
+  },
+  {
+    "motWolof": "safara",
+    "imageCorrecte": "feu",
+    "propositions": ["feu", "filet", "pain", "ecrire"]
+  },
+  {
+    "motWolof": "lujum",
+    "imageCorrecte": "legumes",
+    "propositions": ["legumes", "miroir", "eclair", "jouet"]
+  },
+  {
+    "motWolof": "soble",
+    "imageCorrecte": "oignon",
+    "propositions": ["oignon", "couscous", "ville", "sifflet"]
+  },
+  {
+    "motWolof": "suppome",
+    "imageCorrecte": "chou",
+    "propositions": ["chou", "piment", "rue", "coton"]
+  },
+  {
+    "motWolof": "taabal",
+    "imageCorrecte": "table",
+    "propositions": ["table", "journal", "train", "sachet"]
+  },
+  {
+    "motWolof": "bante",
+    "imageCorrecte": "bois",
+    "propositions": ["bois", "fer", "colline", "riviere"]
+  },
+  {
+    "motWolof": "teere",
+    "imageCorrecte": "livre",
+    "propositions": ["livre", "or", "charbon", "toit"]
+  },
+  {
+    "motWolof": "wantay",
+    "imageCorrecte": "eventail",
+    "propositions": ["eventail", "or", "charbon", "toit"]
+  },
+  {
+    "motWolof": "ndiogane",
+    "imageCorrecte": "balancoire",
+    "propositions": ["balancoire", "or", "charbon", "toit"]
+  },
+  {
+    "motWolof": "thiabi",
+    "imageCorrecte": "cle",
+    "propositions": ["cle", "coton", "cour", "bois"]
+  },
+  {
+    "motWolof": "palanter",
+    "imageCorrecte": "fenetre",
+    "propositions": ["etoile", "fenetre", "fer", "foret"]
+  },
+  {
+    "motWolof": "guet",
+    "imageCorrecte": "enclos",
+    "propositions": ["fruits", "feu", "enclos", "enfant"]
+  },
+  {
+    "motWolof": "sow",
+    "imageCorrecte": "lait caille",
+    "propositions": ["lait caille", "lettre", "legumes", "filet"]
+  },
+  {
+    "motWolof": "daara-ju-kawe",
+    "imageCorrecte": "universite",
+    "propositions": ["voiture", "chaise", "universite", "vendeur"]
+  }
+]

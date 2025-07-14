@@ -766,10 +766,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: df662e41-ae23-4164-96fa-630121d092f3
+  cloudProjectId: d8abcfcd-5bb1-40ee-9851-a31b7a8a2ee2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: JANG WOLOF
+  projectName: jang_wolof
   organizationId: dsouleye105
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

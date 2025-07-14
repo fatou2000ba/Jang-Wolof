@@ -1,0 +1,333 @@
+[
+  {
+    "question": "Xale bi mogui lekk thiep.",
+    "options": [
+      "L'enfant mange du riz",
+      "L'enfant lit un livre",
+      "L'enfant joue dehors",
+      "L'enfant va à l'école"
+    ],
+    "correctAnswer": "L'enfant mange du riz",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'lekk' signifie 'manger' et 'thiep' signifie 'riz'."
+    }
+  },
+  {
+    "question": "Ndongo bi ngi bind ci keuyit.",
+    "options": [
+      "L'élève écrit sur du papier",
+      "L'élève lit un livre",
+      "L'élève mange du pain",
+      "L'élève joue avec une balle"
+    ],
+    "correctAnswer": "L'élève écrit sur du papier",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'bind' signifie 'écrire' et 'keuyit' signifie 'papier'."
+    }
+  },
+  {
+    "question": "Guinar gi dafa ragal safara.",
+    "options": [
+      "La poule craint le feu",
+      "La poule boit de l'eau",
+      "La poule mange du riz",
+      "La poule dort dans la maison"
+    ],
+    "correctAnswer": "La poule craint le feu",
+    "feedback": {
+      "correct": "Parfait !",
+      "incorrect": "Non, 'safara' signifie 'feu'."
+    }
+  },
+  {
+    "question": "Keur gi am na bountou bu rëy.",
+    "options": [
+      "La maison a une grande porte",
+      "La maison a un petit enfant",
+      "La maison a une grande fenêtre",
+      "La maison a un beau jardin"
+    ],
+    "correctAnswer": "La maison a une grande porte",
+    "feedback": {
+      "correct": "Super !",
+      "incorrect": "Non, 'bountou' signifie 'porte'."
+    }
+  },
+  {
+    "question": "Jangale kat bi ngi wax ci nite yi.",
+    "options": [
+      "L'enseignant parle aux personnes",
+      "L'enseignant lit un livre",
+      "L'enseignant mange du riz",
+      "L'enseignant écrit sur le tableau"
+    ],
+    "correctAnswer": "L'enseignant parle aux personnes",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'nite' signifie 'personne'."
+    }
+  },
+  {
+    "question": "Weer bi dafa leer ci asamaan.",
+    "options": [
+      "La lune brille dans le ciel",
+      "La lune tombe dans la mer",
+      "La lune mange du riz",
+      "La lune dort dans la maison"
+    ],
+    "correctAnswer": "La lune brille dans le ciel",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'weer' signifie 'lune' et 'asamaan' signifie 'ciel'."
+    }
+  },
+  {
+    "question": "Guinar gi am na xale bu ndaw.",
+    "options": [
+      "La poule a un petit poussin",
+      "La poule mange du pain",
+      "La poule boit du lait",
+      "La poule lit un livre"
+    ],
+    "correctAnswer": "La poule a un petit poussin",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'xale' signifie 'enfant' ou 'poussin' selon le contexte."
+    }
+  },
+  {
+    "question": "Ndongo bi ngi jang ci daara.",
+    "options": [
+      "L'élève étudie à l'école",
+      "L'élève mange à la maison",
+      "L'élève joue dans la rue",
+      "L'élève dort dans la voiture"
+    ],
+    "correctAnswer": "L'élève étudie à l'école",
+    "feedback": {
+      "correct": "Parfait !",
+      "incorrect": "Non, 'daara' signifie 'école'."
+    }
+  },
+  {
+    "question": "Keur gi am na taabal ak bante.",
+    "options": [
+      "La maison a une table et du bois",
+      "La maison a une vache et un mouton",
+      "La maison a une clé et un stylo",
+      "La maison a une chaussure et un chapeau"
+    ],
+    "correctAnswer": "La maison a une table et du bois",
+    "feedback": {
+      "correct": "Super !",
+      "incorrect": "Non, 'taabal' signifie 'table' et 'bante' signifie 'bois'."
+    }
+  },
+  {
+    "question": "Guedj bi am na ndox bu saf xorom.",
+    "options": [
+      "La mer a de l'eau salée",
+      "La mer a un grand bateau",
+      "La mer mange du riz",
+      "La mer dort la nuit"
+    ],
+    "correctAnswer": "La mer a de l'eau salée",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'guedj' signifie 'mer' et 'ndox' signifie 'eau'."
+    }
+  },
+  {
+    "question": "Gaal gi ngi ci dex-gui.",
+    "options": [
+      "La pirogue est sur la rivière",
+      "La pirogue est dans la maison",
+      "La pirogue mange du riz",
+      "La pirogue lit un livre"
+    ],
+    "correctAnswer": "La pirogue est sur la rivière",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'dex-gui' signifie 'rivière'."
+    }
+  },
+  {
+    "question": "Xale bi am na keur bu rëy.",
+    "options": [
+      "L'enfant a une grande maison",
+      "L'enfant a un petit livre",
+      "L'enfant a une grande chaussure",
+      "L'enfant a une petite table"
+    ],
+    "correctAnswer": "L'enfant a une grande maison",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'keur' signifie 'maison'."
+    }
+  },
+  {
+    "question": "Ndamaar bi ngi daw ci tali bi.",
+    "options": [
+      "La voiture roule sur la route",
+      "La voiture dort dans la maison",
+      "La voiture mange du riz",
+      "La voiture lit un livre"
+    ],
+    "correctAnswer": "La voiture roule sur la route",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'tali' signifie 'route'."
+    }
+  },
+  {
+    "question": "Nanga def ?",
+    "options": [
+      "Comment ça va ?",
+      "Où vas-tu ?",
+      "Quel âge as-tu ?",
+      "Où habites-tu ?"
+    ],
+    "correctAnswer": "Comment ça va ?",
+    "feedback": {
+      "correct": "Parfait !",
+      "incorrect": "Non, 'Nanga def ?' est la salutation classique pour demander 'Comment ça va ?' en wolof."
+    }
+  },
+  {
+    "question": "Jangale kat bi am na teere bu bees.",
+    "options": [
+      "L'enseignant a un nouveau livre",
+      "L'enseignant a une nouvelle maison",
+      "L'enseignant a un nouveau chapeau",
+      "L'enseignant a une nouvelle chaussure"
+    ],
+    "correctAnswer": "L'enseignant a un nouveau livre",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'teere' signifie 'livre'."
+    }
+  },
+  {
+    "question": "Ndongo bi am na bindukkay bu weex.",
+    "options": [
+      "L'élève a un stylo blanc",
+      "L'élève a un livre blanc",
+      "L'élève a une maison blanche",
+      "L'élève a une chaussure blanche"
+    ],
+    "correctAnswer": "L'élève a un stylo blanc",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'bindukkay' signifie 'stylo'."
+    }
+  },
+  {
+    "question": "Jërëjëf !",
+    "options": ["Merci !", "Bonjour !", "Au revoir !", "S'il te plaît !"],
+    "correctAnswer": "Merci !",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'Jërëjëf' signifie 'Merci !' en wolof."
+    }
+  },
+  {
+    "question": "No tudd ?",
+    "options": [
+      "Comment tu t'appelles ?",
+      "Où habites-tu ?",
+      "Quel âge as-tu ?",
+      "Comment vas-tu ?"
+    ],
+    "correctAnswer": "Comment tu t'appelles ?",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'No tudd ?' signifie 'Comment tu t'appelles ?' en wolof."
+    }
+  },
+  {
+    "question": "Maa ngi tudd Fatou.",
+    "options": [
+      "Je m'appelle Fatou.",
+      "J'habite à Dakar.",
+      "J'ai 10 ans.",
+      "Je vais bien."
+    ],
+    "correctAnswer": "Je m'appelle Fatou.",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'Maa ngi tudd Fatou.' signifie 'Je m'appelle Fatou.' en wolof."
+    }
+  },
+  {
+    "question": "Ban att nga am ?",
+    "options": [
+      "Quel âge as-tu ?",
+      "Où vas-tu ?",
+      "Comment tu t'appelles ?",
+      "Où habites-tu ?"
+    ],
+    "correctAnswer": "Quel âge as-tu ?",
+    "feedback": {
+      "correct": "Parfait !",
+      "incorrect": "Non, 'Ban att nga am ?' signifie 'Quel âge as-tu ?' en wolof."
+    }
+  },
+  {
+    "question": "Fan nga dëkk ?",
+    "options": [
+      "Où habites-tu ?",
+      "Quel âge as-tu ?",
+      "Comment tu t'appelles ?",
+      "Où vas-tu ?"
+    ],
+    "correctAnswer": "Où habites-tu ?",
+    "feedback": {
+      "correct": "Bravo !",
+      "incorrect": "Non, 'Fan nga dëkk ?' signifie 'Où habites-tu ?' en wolof."
+    }
+  },
+  {
+    "question": "Fan nga joge ?",
+    "options": [
+      "D'où viens-tu ?",
+      "Où vas-tu ?",
+      "Comment tu t'appelles ?",
+      "Quel âge as-tu ?"
+    ],
+    "correctAnswer": "D'où viens-tu ?",
+    "feedback": {
+      "correct": "Bien joué !",
+      "incorrect": "Non, 'Fan nga joge ?' signifie 'D'où viens-tu ?' en wolof."
+    }
+  },
+  {
+    "question": "Deguma.",
+    "options": [
+      "Je n'entends pas.",
+      "Je suis fatigué.",
+      "Je vais bien.",
+      "Je suis malade."
+    ],
+    "correctAnswer": "Je n'entends pas.",
+    "feedback": {
+      "correct": "Parfait !",
+      "incorrect": "Non, 'Deguma.' signifie 'Je ne comprends pas.' en wolof."
+    }
+  },
+  {
+    "question": "Waaw, waxaatal ndank ndank.",
+    "options": [
+      "Oui, répète lentement.",
+      "Non, je ne veux pas.",
+      "Je vais à l'école.",
+      "Je suis content."
+    ],
+    "correctAnswer": "Oui, répète lentement.",
+    "feedback": {
+      "correct": "Super !",
+      "incorrect": "Non, 'Waaw, waxaatal ndank ndank.' signifie 'Oui, répète lentement.' en wolof."
+    }
+  }
+]
