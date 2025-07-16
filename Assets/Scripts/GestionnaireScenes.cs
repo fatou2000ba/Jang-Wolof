@@ -10,8 +10,8 @@ public class GestionnaireScenes : MonoBehaviour
     public string sceneApprentissage = "Apprentissage";
     public string sceneQuiz = "Quiz";
     public string sceneDialogue = "Dialogue";
-    public string sceneClassements = "Classements";
-    public string sceneCreationProfil = "CreationProfil";
+    public string sceneClassements = "Progression";
+    public string sceneCreationProfil = "Accueil";
     
     [Header("Animation de Transition")]
     public bool avecAnimation = true;
@@ -19,23 +19,51 @@ public class GestionnaireScenes : MonoBehaviour
     
     // Instance singleton (optionnel)
     public static GestionnaireScenes Instance;
-    
-    void Awake()
-    {
-        // Singleton - une seule instance
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-    
+
+    //    void Awake()
+    // {
+    //     if (string.IsNullOrWhiteSpace(sceneApprentissage))
+    //         Debug.LogWarning("⚠️ Le champ 'sceneApprentissage' n'est pas renseigné !");
+
+    //     // Singleton - une seule instance
+    //     if (Instance == null)
+    //     {
+    //         Instance = this;
+    //         DontDestroyOnLoad(gameObject);
+    //     }
+    //     else
+    //     {
+    //         Destroy(gameObject);
+    //     }
+    // }
+
+
     // ========== FONCTIONS PUBLIQUES POUR LES BOUTONS ==========
-    
+ 
+ void Awake()
+{
+    // Singleton amélioré
+    if (Instance == null)
+    {
+        // Vérifiez si cette instance est bien configurée
+        if (string.IsNullOrWhiteSpace(sceneApprentissage))
+        {
+            Debug.LogError("❌ Instance mal configurée dans : " + SceneManager.GetActiveScene().name);
+            Debug.LogError("Ce GestionnaireScenes ne devrait pas exister ou être configuré !");
+            Destroy(gameObject);
+            return;
+        }
+        
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+        Debug.Log("✅ GestionnaireScenes configuré et actif");
+    }
+    else
+    {
+        Debug.Log("❌ Instance dupliquée supprimée dans : " + SceneManager.GetActiveScene().name);
+        Destroy(gameObject);
+    }
+} 
     public void AllerMenuPrincipal()
     {
         Debug.Log("Aller au menu principal");
@@ -46,11 +74,28 @@ public class GestionnaireScenes : MonoBehaviour
     {
         ChargerScene(sceneCommencer);
     }
+
+    // public void AllerApprentissage()
+    // {
+    //     ChargerScene(sceneApprentissage);
+    // }
     
     public void AllerApprentissage()
+{
+    Debug.Log("=== DEBUG AllerApprentissage ===");
+    Debug.Log("Scène actuelle : " + SceneManager.GetActiveScene().name);
+    Debug.Log("GameObject : " + gameObject.name);
+    Debug.Log("sceneApprentissage : '" + sceneApprentissage + "'");
+    Debug.Log("Instance actuelle : " + (Instance != null ? Instance.gameObject.name : "null"));
+    
+    if (string.IsNullOrEmpty(sceneApprentissage))
     {
-        ChargerScene(sceneApprentissage);
+        Debug.LogError("❌ sceneApprentissage est vide !");
+        return;
     }
+    
+    ChargerScene(sceneApprentissage);
+}
     
     public void AllerQuiz()
     {
@@ -71,23 +116,56 @@ public class GestionnaireScenes : MonoBehaviour
     {
         ChargerScene(sceneCreationProfil);
     }
-    
+
     // ========== FONCTIONS INTERNES ==========
-    
-    void ChargerScene(string nomScene)
+
+    //  void ChargerScene(string nomScene)
+    // {
+    //     if (string.IsNullOrEmpty(nomScene))
+    //     {
+    //         Debug.LogError("❌ Nom de scène vide !");
+    //         return;
+    //     }
+
+    //     Debug.Log("Chargement de la scène : " + nomScene);
+
+    //     if (avecAnimation)
+    //     {
+    //         StartCoroutine(ChargerAvecAnimation(nomScene));
+    //     }
+    //     else
+    //     {
+    //         SceneManager.LoadScene(nomScene);
+    //     }
+    // }
+
+  
+  void ChargerScene(string nomScene)
+{
+    if (string.IsNullOrEmpty(nomScene))
     {
-        Debug.Log("Chargement de la scène : " + nomScene);
-        
-        if (avecAnimation)
-        {
-            StartCoroutine(ChargerAvecAnimation(nomScene));
-        }
-        else
-        {
-            SceneManager.LoadScene(nomScene);
-        }
+        Debug.LogError("❌ Nom de scène vide !");
+        return;
     }
-    
+
+    // Vérification que l'objet n'est pas détruit
+    if (this == null)
+    {
+        Debug.LogError("❌ GestionnaireScenes détruit !");
+        return;
+    }
+
+    Debug.Log("Chargement de la scène : " + nomScene);
+
+    if (avecAnimation)
+    {
+        StartCoroutine(ChargerAvecAnimation(nomScene));
+    }
+    else
+    {
+        SceneManager.LoadScene(nomScene);
+    }
+}  
     IEnumerator ChargerAvecAnimation(string nomScene)
     {
         // Animation de sortie (fade out)

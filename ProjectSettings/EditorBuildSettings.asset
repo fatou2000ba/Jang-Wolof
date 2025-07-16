@@ -26,9 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Progression.unity
     guid: 8ff9aba595da416868f016a25d36bfdf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AssessmentScene.unity
     guid: 75b7c3082ef3fb1d5ac91d9f16eb5eaa
+  - enabled: 1
+    path: Assets/Scenes/Accueil.unity
+    guid: 520546020c8107600b1e0a593e091fe4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
